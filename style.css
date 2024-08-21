@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.usnews.com/object/image/00000169-6cf9-df95-a57d-7cfbceaf0000/1-intro-getty.jpg?update-time=1552311636444&size=responsive640);
+    background-size: 38%;
+    color: #031cfa;
+    font-weight: 100;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game {
+    max-width: 600px;
+    padding: 20px;
+    background-image: url(https://media1.thrillophilia.com/filestore/121sptbncg8bqe24s80q22eswm2a_1577089424_shutterstock_109609190.jpg?w=400&dpr=2);
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0077b6;
+}
+
+button {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+.hidden {
+    display: none;
+}
+
+#inventory, #save-load, #language-select {
+    margin-top: 20px;
+}
+
+#inventory ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#inventory li {
+    background-color: #e0f7fa;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}

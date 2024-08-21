@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Story Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="scene">
+            <h2 id="scene-title" style="color: red;">Welcome to the Language Learning Adventure!</h2>
+            <p id="scene-text">You find yourself in a mysterious forest. Do you want to go left or right?</p>
+            <div id="choices">
+                <button onclick="makeChoice('left')">Go Left</button>
+                <button onclick="makeChoice('right')">Go Right</button>
+            </div>
+        </div>
+
+        <div id="quiz" class="hidden">
+            <h2 id="quiz-title">Language Quiz</h2>
+            <p id="quiz-question">Translate 'Hello' to Spanish:</p>
+            <input type="text" id="quiz-answer">
+            <button onclick="checkAnswer()">Submit</button>
+        </div>
+
+        <div id="inventory">
+            <h2>Inventory</h2>
+            <ul id="inventory-list"></ul>
+        </div>
+
+        <div id="save-load">
+            <button onclick="saveGame()">Save Game</button>
+            <button onclick="loadGame()">Load Game</button>
+        </div>
+
+        <div id="language-select">
+            <h2>Select Language</h2>
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('es')">Español</button>
+        </div>
+        
+        <footer>
+            <h4 style="color: blue;">This Game is Under Construction...</h4>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
